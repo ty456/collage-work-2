@@ -1,0 +1,15 @@
+@keyframes collage-img {
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.collage-img:hover {
+  animation-name: collage-img;
+  animation-duration: 0.9s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
